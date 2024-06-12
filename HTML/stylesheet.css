@@ -1,0 +1,19 @@
+.one{
+    position:relative;
+    max-width:760px;
+    background-color:blue;
+    
+  }
+  .two{
+    position:relative;
+    min-width:760px;
+    background-color:blue;
+    margin-top:5px;
+  }
+  .three{
+    position:relative;
+    width:760px;
+    background-color:blue;
+    margin-top:5px;
+    
+  }

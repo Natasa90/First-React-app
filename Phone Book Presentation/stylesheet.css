@@ -1,0 +1,233 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size:20px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 600px;
+    background-color:#e3e3e3;
+    border-radius: 5%;
+}
+.header{
+    background-color:#a7bcb9;
+    font-weight: 600;
+    padding-left: 3%;
+    font-size:1.5rem;
+    border-radius:5%;
+}
+.two-boxes{
+   display:flex;
+   flex-direction:row;
+}
+.two-boxes p{
+    flex:3;
+    background-color: #dbd8e3;
+    height:10%;
+}
+.right-navbar{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(196, 193, 193);
+    font-size:0.8rem;
+    padding-right:2%;
+}
+.right-navbar p{
+    margin:20%;
+    text-align: center;
+}
+.a-content{
+    position:absolute;
+    top:15%;
+}
+.b{
+    background-color: #dbd8e3;
+    position:absolute;
+    top:20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    -*/89+4
+}
+p{
+    margin:10px;
+}
+
+

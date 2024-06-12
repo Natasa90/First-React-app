@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML CSS Quiz</title>
+        <link rel="stylesheet" href="styles_quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>HTML/CSS Quiz</h1>
+            <nav>
+                <ul>
+                    <li><a href="personal-info">INFO</a></li>
+                    <li><a href="html-questions">HTML</a></li>
+                    <li><a href="css-questions">CSS</a></li> 
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form method="post">
+                <section role="region" aria-labelledby="personal-info">
+                    <h2 id="personal-info">Personal Information</h2>
+                    <div class="info">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="info">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="info">
+                        <label for="age">Age: </label>
+                        <input type="date" name="age" id="age">
+                    </div>
+                </section>
+                <section role="region" aria-labelledby="html-questions">
+                    <h2 id="html-questions">HTML Quiz</h2>
+                    <div class="question-block">
+                        <p>1.</p>
+                        <fieldset class="question" name="html-q1">
+                            <legend>What syntax does every HTML DOC start with on line 1?</legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label for="q1-a1">
+                                        <input type="radio" id="q1-a1" name="q1">
+                                        html lang="en"
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q1-a2">
+                                        <input type="radio" id="q1-a2" name="q1">
+                                        main
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q1-a3">
+                                        <input type="radio" id="q1-a3" name="q1">
+                                        !DOCTYPE html
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q1-a4">
+                                        <input type="radio" id="q1-a4" name="q1">
+                                        head
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div class="question-block">
+                        <p>2.</p>
+                        <fieldset class="question" name="html-q2">
+                            <legend>How do you insert text into an input?</legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label for="q2-a1">
+                                        <input type="radio" id="q2-a1" name="q2">
+                                        required
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q2-a2">
+                                        <input type="radio" id="q2-a2" name="q2">
+                                        placeholder
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q2-a3">
+                                        <input type="radio" id="q2-a3" name="q2">
+                                        type
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q2-a4">
+                                        <input type="radio" id="q2-a4" name="q2">
+                                        id
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div class="question-block">
+                        <p>3.</p>
+                        <fieldset class="question" name="html-q3">
+                            <legend>What does HTML stand for?</legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label for="q3-a1">
+                                        <input type="radio" id="q3-a1" name="q3">
+                                        Hypertext Markup Language 
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q3-a2">
+                                        <input type="radio" id="q3-a2" name="q3">
+                                        Hypertext Main Language 
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q3-a3">
+                                        <input type="radio" id="q3-a3" name="q3">
+                                        Hypertext Modal Linguistic 
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q3-a4">
+                                        <input type="radio" id="q3-a4" name="q3">
+                                        Honest Meaningful Language 
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div class="question-block">
+                        <p>4.</p>
+                        <fieldset class="question" name="html-q4">
+                            <legend>Developer Tools help assist you in creating a webpage</legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label for="q4-a1">
+                                        <input type="radio" id="q4-a1" name="q4" value="True">
+                                        True
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q4-a2">
+                                        <input type="radio" id="q4-a2" name="q4" value="False">
+                                        False
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <button type="button" onclick=correctAnswer()>Submit</button>
+                        <div id ="outputArea"></div>
+                    </div>
+                </section>
+                <section role="region" aria-labelledby="css-questions">
+                    <h2 id="css-questions">CSS Quiz</h2>
+                    <div class="question-block">
+                        <p>1.</p>
+                        <label class="question label" for="css-textarea">What does the * property mean?</label>
+                    </div>
+                    <div class="answer">
+                        <textarea name="answer-cssq1" id="css-textarea" cols="66" rows="5" placeholder="e.g. the property * means... "></textarea>
+                    </div>
+                    <div class="question-block">
+                        <p>2.</p>
+                        <fieldset class="question" name="css-q2">
+                            <legend>What property changes the font color?</legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label for="q2-a1">
+                                        <input type="radio" id="q2-a1" name="q2">
+                                        background-color
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q2-a2">
+                                        <input type="radio" id="q2-a2" name="q2">
+                                        padding
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q2-a3">
+                                        <input type="radio" id="q2-a3" name="q2">
+                                        font-color
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q2-a4">
+                                        <input type="radio" id="q2-a4" name="q2">
+                                        color
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset> 
+                    </div>
+                    <div class="question-block">
+                        <p>3.</p>
+                        <label class="question label" for="css-selector">Can you link more than one CSS file to an html?</label>
+                    </div>
+                    <div class="answer">
+                        <select name="css-selector" id="css-selector">
+                            <option value="">Select an option</option>
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </div>
+                    <div class="question-block">
+                        <p>4.</p>
+                        <fieldset class="question" name="css-q4">
+                            <legend>What is CSS?</legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label for="q4-a1">
+                                        <input type="radio" id="q4-a1" name="q4">
+                                        CSS is a style sheet language 
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q4-a2">
+                                        <input type="radio" id="q4-a2" name="q4">
+                                        CSS is designed to separate the presentaiton and content, including layout, colors, and fonts
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q4-a3">
+                                        <input type="radio" id="q4-a3" name="q4">
+                                        CSS is the language used to style the HTML documents 
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q4-a4">
+                                        <input type="radio" id="q4-a4" name="q4">
+                                        All of the above 
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset> 
+                    </div>
+                </section>
+            </form>
+        </main>
+        <footer>
+            <address>
+                <a href="file:///Users/zachroth/Applications/VScode/HTML/%3CPortfolio%3E.html">ZachRoth.com</a><br>
+                <a href="">(917)-699-6689</a><br>
+                <a href="">zacharyroth224@gmail.com</a><br>
+                
+            </address>
+        </footer>
+    </body>
+</html>

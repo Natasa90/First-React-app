@@ -1,0 +1,13 @@
+POSITION PROPERTIES IN CSS 
+Do sada smo se kroz ucenje susreli sa Position Property u CSS-u, i koristili smo relative i absolute (static je podrazumevana vrednost). 
+Sada cemo proci osnovne karakteristike jos dve Position properties  - 
+Position Sticky i 
+Position Fixed. 
+POSITION STICKY 
+Kada u CSS-u primenimo na nekom elementu dokumenta Position: sticky; element ce ostati u normal flow dokumenta. Uz dodavanje offset svojstava  (top, left,bottom, right), bice relativno pozicioniran parent block-u u kome se nalazi. Offset nece imati uticaja na ostale elemente parent block-a. 
+Sticky element ce se "zalepiti" (postati "sticky") za containing block i kada radimo scroll on ce se skrolati zajedno sa blockom, sve dok ne dodje do suprotne ivice bloka (za ovakav primer bismo morali da zadamo offset poziciju top:0;)
+PRIMER : IMENIK 
+POSITION FIXED 
+Ovu poziciju koristimo u CSS-u kada zelimo da neki element izgleda kao da "lebdi" na veb stranici, tj ostaje uvek na istoj poziciji bez obzira da li smo odradli scroll. Primer za ovakvo pozicioniranje su adds koje vidjamo na veb aplikacijama. 
+
+
